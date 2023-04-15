@@ -2,6 +2,7 @@ import Bottom from "@/components/Bottom";
 import Upper from "@/components/Upper";
 import { Inter } from "next/font/google";
 import Image from "next/image";
+import Link from "next/link";
 import Marquee from "react-fast-marquee";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
@@ -14,9 +15,11 @@ export default function Home() {
       <div className="z-10  w-full h-screen flex flex-col justify-between selection:text-[#76EDCB] selection:bg-[#0F1F21] ">
         <nav className="w-full h-20 px-10 sm:px-20 flex items-center justify-between">
           <h1 className="font-semibold text-[18px]">Gen AI Hackathon</h1>
-          <button className="rounded-md bg-white px-5 py-2 text-black shadow-[0px_10px_50px_rgba(16,185,129,0.4)] hover:shadow-[0px_10px_50px_rgba(16,185,129,0.6)] duration-200 font-medium hover:bg-white/[0.8] ">
-            Register
-          </button>
+          <Link href="https://y17tx8x76al.typeform.com/to/jJpZjK0N">
+            <button className="rounded-md bg-white px-5 py-2 text-black shadow-[0px_10px_50px_rgba(16,185,129,0.4)] hover:shadow-[0px_10px_50px_rgba(16,185,129,0.6)] duration-200 font-medium hover:bg-white/[0.8] ">
+              Join now
+            </button>
+          </Link>
         </nav>
         <div className="px-10 sm:px-20 selection:text-[#76EDCB] selection:bg-[#0F1F21] ">
           <h1 className="font-medium text-[1.75rem] sm:text-[3.75rem] text-transparent bg-clip-text leading-[45px]  sm:leading-[70px] bg-gradient-to-r to-[#83878E] from-white">
