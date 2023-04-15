@@ -1,7 +1,7 @@
 const Bottom = () => {
   return (
     <svg
-      className="absolute bottom-0 left-0 right-0 z-0 mx-auto hidden select-none md:block"
+      className="absolute bottom-0 left-0 right-0 z-0 mx-auto select-none md:block"
       width="1227"
       height="357"
       viewBox="0 0 1227 357"

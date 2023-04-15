@@ -23,7 +23,9 @@ export default function Home() {
             Hong Kong&#39;s Premiere <br></br>Generative AI Hackathon
           </h1>
           <p className="max-w-xl text-white/[0.6] mt-4">
-            For the first time, we&#39;re hosting developers, engineers, hackers from across Hong Kong, China, and Singapore to join and build cool things.
+            For the first time, we&#39;re hosting developers, engineers, hackers
+            from across Hong Kong, China, and Singapore to join and build cool
+            things.
           </p>
         </div>
 
@@ -37,6 +39,7 @@ export default function Home() {
                   fill={true}
                   style={{ objectFit: "contain" }}
                   quality={100}
+                  priority={true}
                 />
               </div>
 
@@ -47,6 +50,7 @@ export default function Home() {
                   fill={true}
                   style={{ objectFit: "contain" }}
                   quality={100}
+                  priority={true}
                 />
               </div>
 
@@ -57,6 +61,7 @@ export default function Home() {
                   fill={true}
                   style={{ objectFit: "contain" }}
                   quality={100}
+                  priority={true}
                 />
               </div>
             </div>
