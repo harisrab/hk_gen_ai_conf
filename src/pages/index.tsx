@@ -20,12 +20,10 @@ export default function Home() {
         </nav>
         <div className="px-10 sm:px-20 selection:text-[#76EDCB] selection:bg-[#0F1F21] ">
           <h1 className="font-medium text-[1.75rem] sm:text-[3.75rem] text-transparent bg-clip-text leading-[45px]  sm:leading-[70px] bg-gradient-to-r to-[#83878E] from-white">
-            Hong Kong's Premiere <br></br>Generative AI Hackathon
+            Hong Kong&#39;s Premiere <br></br>Generative AI Hackathon
           </h1>
           <p className="max-w-xl text-white/[0.6] mt-4">
-            For the first time, we're hosting developers, engineers, hackers
-            from across Hong Kong, China, and Singapore to join and build cool
-            things.
+            For the first time, we&#39;re hosting developers, engineers, hackers from across Hong Kong, China, and Singapore to join and build cool things.
           </p>
         </div>
 
