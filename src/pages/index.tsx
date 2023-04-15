@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 export default function Home() {
   return (
     <main
-      className={`w-full h-screen ${inter.variable} flex flex-col items-center justify-between relative bg-green-800/[0.05]`}
+      className={`w-screen overflow-hidden h-screen ${inter.variable} flex flex-col items-center justify-between relative bg-green-800/[0.05]`}
     >
       <div className="z-10  w-full h-screen flex flex-col justify-between selection:text-[#76EDCB] selection:bg-[#0F1F21] ">
         <nav className="w-full h-20 px-10 sm:px-20 flex items-center justify-between">
