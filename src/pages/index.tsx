@@ -29,7 +29,7 @@ export default function Home() {
           </p>
         </div>
 
-        <footer className="w-full h-40">
+        <footer className="w-full h-[140px]">
           <Marquee className="h-full" gradient={false}>
             <div className="flex items-center gap-2 h-full">
               <div className="relative w-[200px] mr-10 h-[60px] opacity-30 hover:opacity-50 duration-200 flex items-center">
