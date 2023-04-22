@@ -19,7 +19,7 @@ const Hero = () => {
           <div className="w-full h-full relative">
             {/* Image 1 */}
             <div className="absolute right-14 sm:right-2 bottom-[25%] z-[2] shadow-2xl shadow-black hover:bottom-[28%] duration-500">
-              <div className="relative w-[300px] h-[300px] sm:w-[400px] mr-10 sm:h-[400px] opacity-100 hover:opacity-90 duration-200 flex items-center">
+              <div className="relative w-[300px] h-[300px] sm:w-[400px] mr-10 sm:h-[400px] opacity-100  duration-200 flex items-center">
                 <Image
                   alt=""
                   src="/art1.jpg"
@@ -33,7 +33,7 @@ const Hero = () => {
 
             {/* Image 2 */}
             <div className="absolute -right-10 bottom-40 sm:left-20 sm:bottom-[15%] z-[1] hover:bottom-[190px] sm:hover:bottom-[17%] duration-500">
-              <div className="relative w-[200px] h-[300px] sm:w-[300px] mr-10 sm:h-[400px] opacity-100 hover:opacity-60 duration-200 flex items-center">
+              <div className="relative w-[200px] h-[300px] sm:w-[300px] mr-10 sm:h-[400px] opacity-100 duration-200 flex items-center">
                 <Image
                   alt=""
                   src="/art2.jpg"
