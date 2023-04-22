@@ -33,7 +33,7 @@ const Hero = () => {
 
             {/* Image 2 */}
             <div className="absolute left-20 bottom-[15%] z-[1] hover:bottom-[17%] duration-500">
-              <div className="relative w-[400px] mr-10 h-[400px] opacity-100 hover:opacity-60 duration-200 flex items-center">
+              <div className="relative w-[300px] mr-10 h-[400px] opacity-100 hover:opacity-60 duration-200 flex items-center">
                 <Image
                   alt=""
                   src="/art2.jpg"
