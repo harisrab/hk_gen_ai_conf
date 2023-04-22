@@ -13,7 +13,7 @@ const Hero = () => {
     <main
       className={`w-full overflow-hidden  ${inter.variable} flex flex-col items-center justify-between relative bg-green-800/[0.05]`}
     >
-      <div className="z-10  w-full h-[100vh] flex flex-col justify-start selection:text-[#76EDCB] selection:bg-[#0F1F21] ">
+      <div className="z-10  w-full h-[120vh] sm:h-screen flex flex-col justify-start selection:text-[#76EDCB] selection:bg-[#0F1F21] ">
         {/* Floating images section */}
         <div className="sm:h-full  sm:w-[50%] absolute bottom-0 right-[10%] sm:right-0 sm:top-0">
           <div className="w-full h-full relative">
