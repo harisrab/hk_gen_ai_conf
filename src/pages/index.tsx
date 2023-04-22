@@ -67,6 +67,26 @@ export default function Home() {
                   priority={true}
                 />
               </div>
+              <div className="relative w-[200px] h-[40px] opacity-30 hover:opacity-50 duration-200 flex items-center">
+                <Image
+                  alt=""
+                  src="/marquee/clearbot_logo.png"
+                  fill={true}
+                  style={{ objectFit: "contain" }}
+                  quality={100}
+                  priority={true}
+                />
+              </div>
+              <div className="relative w-[200px] h-[40px] opacity-30 hover:opacity-50 duration-200 flex items-center">
+                <Image
+                  alt=""
+                  src="/marquee/deploifai_logo.png"
+                  fill={true}
+                  style={{ objectFit: "contain" }}
+                  quality={100}
+                  priority={true}
+                />
+              </div>
             </div>
           </Marquee>
         </footer>
