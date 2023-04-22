@@ -30,12 +30,32 @@ export default function Home() {
             from across Hong Kong, China, and Singapore to join and build cool
             things.
           </p>
+
+          <Link target="_blank" href='https://y17tx8x76al.typeform.com/to/jJpZjK0N'>
+            <button className="px-4 py-2 flex gap-2 items-center hover:gap-3 bg-white text-black rounded-full mt-10 shadow-[0px_10px_30px_rgba(16,185,129,0.4)] hover:shadow-[0px_10px_50px_rgba(16,185,129,0.6)] duration-200">
+              Register now
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-4 h-4"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
+                />
+              </svg>
+            </button>
+          </Link>
         </div>
 
-        <footer className="w-full h-[140px]">
+        <footer className="w-full h-[140px] -mt-5">
           <Marquee className="h-full" gradient={false}>
-            <div className="flex items-center gap-2 h-full">
-              <div className="relative w-[200px] mr-10 h-[60px] opacity-30 hover:opacity-50 duration-200 flex items-center">
+            {/* <div className="flex items-center gap-2 h-full"> */}
+              <div className="relative w-[200px] mr-10 h-[60px] opacity-40 hover:opacity-50 duration-200 flex items-center">
                 <Image
                   alt=""
                   src="/marquee/hku_logo.png"
@@ -46,7 +66,7 @@ export default function Home() {
                 />
               </div>
 
-              <div className="relative w-[200px] h-[25px]  opacity-30 hover:opacity-50 duration-200 flex items-center">
+              <div className="relative w-[200px] h-[25px]  opacity-40 hover:opacity-50 duration-200 flex items-center">
                 <Image
                   alt=""
                   src="/marquee/microsoft_logo.png"
@@ -57,7 +77,7 @@ export default function Home() {
                 />
               </div>
 
-              <div className="relative w-[200px] h-[40px] opacity-30 hover:opacity-50 duration-200 flex items-center">
+              <div className="relative w-[200px] h-[40px] opacity-40 hover:opacity-50 duration-200 flex items-center">
                 <Image
                   alt=""
                   src="/marquee/cyberport_logo.png"
@@ -67,7 +87,7 @@ export default function Home() {
                   priority={true}
                 />
               </div>
-              <div className="relative w-[200px] h-[40px] opacity-30 hover:opacity-50 duration-200 flex items-center">
+              <div className="relative w-[200px] h-[40px] opacity-60 hover:opacity-50 duration-200 flex items-center">
                 <Image
                   alt=""
                   src="/marquee/clearbot_logo.png"
@@ -77,7 +97,7 @@ export default function Home() {
                   priority={true}
                 />
               </div>
-              <div className="relative w-[200px] h-[40px] opacity-30 hover:opacity-50 duration-200 flex items-center">
+              <div className="relative w-[200px] h-[20px] opacity-40 hover:opacity-50 duration-200 flex items-center">
                 <Image
                   alt=""
                   src="/marquee/deploifai_logo.png"
@@ -87,7 +107,37 @@ export default function Home() {
                   priority={true}
                 />
               </div>
-            </div>
+              <div className="relative w-[200px] h-[60px] opacity-40 hover:opacity-50 duration-200 flex items-center">
+                <Image
+                  alt=""
+                  src="/marquee/goodnotes_logo.png"
+                  fill={true}
+                  style={{ objectFit: "contain" }}
+                  quality={100}
+                  priority={true}
+                />
+              </div>
+              <div className="relative w-[200px] h-[80px] opacity-40 hover:opacity-50 duration-200 flex items-center">
+                <Image
+                  alt=""
+                  src="/marquee/insilicomed_logo.png"
+                  fill={true}
+                  style={{ objectFit: "contain" }}
+                  quality={100}
+                  priority={true}
+                />
+              </div>
+              <div className="relative w-[200px] h-[20px] opacity-40 hover:opacity-50 duration-200 flex items-center">
+                <Image
+                  alt=""
+                  src="/marquee/fanolabs_logo.png"
+                  fill={true}
+                  style={{ objectFit: "contain" }}
+                  quality={100}
+                  priority={true}
+                />
+              </div>
+            {/* </div> */}
           </Marquee>
         </footer>
       </div>
