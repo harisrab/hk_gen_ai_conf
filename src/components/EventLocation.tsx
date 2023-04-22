@@ -17,10 +17,12 @@ const EventLocation = () => {
             Unravel brilliance at The Mills
           </h1>
           <p className="max-w-xl text-white/[0.6] mt-4">
-            Join Hong Kong's first-ever Generative AI Hackathon at the iconic
-            Mills venue - a hub for tech innovators and creative thinkers, where
-            history, art, and technology converge to give birth creative ideas. Don't miss this unique opportunity to think outside the
-            box and make your mark, to network with interesting minds working in the field of AI!
+            Join Hong Kong&#39;s first-ever Generative AI Hackathon at the
+            iconic Mills venue - a hub for tech innovators and creative
+            thinkers, where history, art, and technology converge to give birth
+            creative ideas. Don&#39;t miss this unique opportunity to think
+            outside the box and make your mark, to network with interesting
+            minds working in the field of AI!
           </p>
         </div>
         <div className="w-full h-full flex items-center justify-end">
