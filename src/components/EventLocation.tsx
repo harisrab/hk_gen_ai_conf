@@ -26,7 +26,7 @@ const EventLocation = () => {
           </p>
         </div>
         <div className="w-full h-full flex items-center justify-end">
-          <div className="relative w-full sm:mr-10 h-[600px] opacity-100 hover:opacity-50 duration-200 flex items-center">
+          <div className="relative w-full sm:mr-10 h-[600px] opacity-100  duration-200 flex items-center">
             <Image
               alt=""
               src="/mills2.jpeg"
