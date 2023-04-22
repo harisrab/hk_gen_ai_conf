@@ -15,11 +15,11 @@ const Hero = () => {
     >
       <div className="z-10  w-full h-[100vh] flex flex-col justify-start selection:text-[#76EDCB] selection:bg-[#0F1F21] ">
         {/* Floating images section */}
-        <div className="h-full w-[50%] absolute right-0 top-0">
+        <div className="sm:h-full  sm:w-[50%] absolute bottom-0 right-[10%] sm:right-0 sm:top-0">
           <div className="w-full h-full relative">
             {/* Image 1 */}
-            <div className="absolute right-2 bottom-[25%] z-[2] shadow-2xl shadow-black hover:bottom-[28%] duration-500">
-              <div className="relative w-[400px] mr-10 h-[400px] opacity-100 hover:opacity-90 duration-200 flex items-center">
+            <div className="absolute right-14 sm:right-2 bottom-[25%] z-[2] shadow-2xl shadow-black hover:bottom-[28%] duration-500">
+              <div className="relative w-[300px] h-[300px] sm:w-[400px] mr-10 sm:h-[400px] opacity-100 hover:opacity-90 duration-200 flex items-center">
                 <Image
                   alt=""
                   src="/art1.jpg"
@@ -32,8 +32,8 @@ const Hero = () => {
             </div>
 
             {/* Image 2 */}
-            <div className="absolute left-20 bottom-[15%] z-[1] hover:bottom-[17%] duration-500">
-              <div className="relative w-[300px] mr-10 h-[400px] opacity-100 hover:opacity-60 duration-200 flex items-center">
+            <div className="absolute -right-10 bottom-40 sm:left-20 sm:bottom-[15%] z-[1] hover:bottom-[190px] sm:hover:bottom-[17%] duration-500">
+              <div className="relative w-[200px] h-[300px] sm:w-[300px] mr-10 sm:h-[400px] opacity-100 hover:opacity-60 duration-200 flex items-center">
                 <Image
                   alt=""
                   src="/art2.jpg"
@@ -54,7 +54,7 @@ const Hero = () => {
             </button>
           </Link> */}
         </nav>
-        <div className="h-full w-full flex items-center">
+        <div className="h-full w-full flex mt-20 sm:mt-0 sm:items-center">
           <div className="px-10 sm:px-20 selection:text-[#76EDCB] selection:bg-[#0F1F21] ">
             <h1 className="font-medium text-[1.75rem] sm:text-[3.75rem] text-transparent bg-clip-text leading-[45px]  sm:leading-[70px] bg-gradient-to-r to-[#83878E] from-white">
               Hong Kong&#39;s Premiere <br></br>Generative AI Hackathon
