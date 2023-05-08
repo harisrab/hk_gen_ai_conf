@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const Speaker = ({ name, linkedin, label, img }: any) => {
+const Speaker = ({ index, name, linkedin, label, img }: any) => {
   return (
-    <Link href={linkedin}>
+    <Link key={index} href={linkedin}>
       <li className="hover:opacity-60 duration-150 hover:cursor-pointer">
         <div className="relative w-[300px] h-[400px]">
           <Image

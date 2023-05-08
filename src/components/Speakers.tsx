@@ -68,8 +68,9 @@ const Speakers = () => {
 
           <div>
             <ul className="flex items-center gap-5 flex-wrap justify-between">
-              {speakers.map((speaker) => (
+              {speakers.map((speaker, index) => (
                 <Speaker
+                  index={index}
                   name={speaker.name}
                   linkedin={speaker.linkedin}
                   label={speaker.label}
