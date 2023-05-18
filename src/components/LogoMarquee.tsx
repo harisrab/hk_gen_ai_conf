@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 const LogoMarquee = () => {
   return (
     <footer className="w-full h-[140px]  bg-green-800/[0.05] mt-10 sm:mt-0 mb-10 sm:mb-0">
-      <Marquee className="h-full" gradient={false}>
+      <Marquee className="h-full flex items-center" gradient={false}>
         {/* <div className="flex items-center gap-2 h-full"> */}
         <div className="relative w-[200px] mr-10 h-[60px] opacity-40 hover:opacity-50 duration-200 flex items-center">
           <Image
