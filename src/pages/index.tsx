@@ -6,7 +6,7 @@ import Speakers from "@/components/Speakers";
 
 export default function Home() {
   return (
-    <div className="w-full overflow-x-hidden flex flex-col">
+    <div className="w-full overflow-x-hidden flex flex-col bg-black">
       <Hero />
       <LogoMarquee />
       <EventLocation />
